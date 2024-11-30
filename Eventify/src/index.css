@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-background text-textPrimary;
+}
+
+a {
+  @apply text-primary;
+}
+
+button {
+  @apply text-white;
+}
+
+input, select {
+  @apply border border-gray-300 rounded p-2;
+}
+
+.card {
+  @apply bg-white shadow-lg rounded-lg overflow-hidden;
+}
+
+.card img {
+  @apply w-full h-48 object-cover;
+}
+
+.card-body {
+  @apply p-4;
+}
+
+.card-title {
+  @apply text-xl font-bold;
+}
+
+.card-text {
+  @apply text-textSecondary;
+}
+
+.card-footer {
+  @apply p-4 bg-gray-100;
+}
+
+.card-footer button {
+  @apply w-full;
+}
